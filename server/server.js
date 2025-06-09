@@ -13,7 +13,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 const corsOptions = {
   origin: [
     'http://localhost:5173', // for local dev
-    'https://full-stack-with-admin-panel.onrender.com' // for production frontend
+    'https://full-stack-with-admin-panel.vercel.app/' // for production frontend
   ],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
