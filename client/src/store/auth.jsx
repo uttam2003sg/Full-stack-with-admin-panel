@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
   const [services, setServices] = useState([]);
   const authorizationToken = `Bearer ${token}`;
 
-   const API = "http://localhost:5001";
+   const API = "https://full-stack-with-admin-panel.onrender.com";
   
 
   const storeTokenInLS = (serverToken) => {
