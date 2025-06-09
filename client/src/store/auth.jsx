@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
   const [services, setServices] = useState([]);
   const authorizationToken = `Bearer ${token}`;
 
-   const API = "https://full-stack-with-admin-panel.onrender.com";
+   const API = import.meta.env.VITE_API_URL;
   
 
   const storeTokenInLS = (serverToken) => {
